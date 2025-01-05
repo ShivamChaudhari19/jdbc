@@ -18,7 +18,7 @@ public class FristJDBC {
                 System.out.println("Connection created");
             }
 
-            //
+            con.close();
 
         } catch (Exception e) {
             System.out.println(e);
