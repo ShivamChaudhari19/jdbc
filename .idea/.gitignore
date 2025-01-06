@@ -2,7 +2,7 @@
 /.idea/
 /shelf/
 /workspace.xml
-/config.properties
+config.properties
 
 # Logs
 *.log
