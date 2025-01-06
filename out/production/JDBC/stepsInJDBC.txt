@@ -1,0 +1,21 @@
+1) load the Driver:
+	a) Class.forName("com.mysql.jdbc.Driver"//String)//Write in Try catch block
+		OR
+	b) DriverManager.RegisterDriver(new com.mysql.jdbc.Driver())//Write in Try catch block
+2) establish Connection:
+	Connection conn =DriverManager.getConnection("url"//jdbc:mysql: /*IP (address):Port No. */,"username","password");//this method return a object of Connection
+
+3) create query, statement, PreparedStatement, CallableStatement
+e.g 
+	String q="select * from students";
+	Statement stmt=con.createStatement();
+	ResultSet set=stmt.executeQuery(q);
+4) Process the data:
+	while(set.next()){
+		int id=set.getInt("studentID");
+		String name= set.getString("studentName");
+		System.out.println(id);
+		System.out.println(name);
+	}
+5)Close the Connection:
+	con.close();
