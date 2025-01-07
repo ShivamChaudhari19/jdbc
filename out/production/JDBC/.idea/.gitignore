@@ -1,0 +1,27 @@
+# IntelliJ IDEA specific files
+/.idea/
+/shelf/
+/workspace.xml
+config.properties
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# Maven/Gradle build directories
+/target/
+/build/
+
+# IntelliJ's output directory
+/out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Java-specific
+*.war
+*.ear
+*.jar
