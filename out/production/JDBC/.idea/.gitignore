@@ -16,3 +16,12 @@ config.properties
 
 # IntelliJ's output directory
 /out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Java-specific
+*.war
+*.ear
+*.jar
