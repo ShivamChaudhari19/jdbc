@@ -6,7 +6,7 @@ config.properties
 
 # Logs
 *.log
-
+out/
 # Compiled class files
 *.class
 
